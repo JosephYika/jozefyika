@@ -2,6 +2,7 @@
 A website created during the IBM Boot camp. The Bootcamp focused on Web Development ( HTML and CSS). 
 I mainly used this BootCamp to refresh my knowledge about HTML and CSS and complement one of my modules at the university, where I had to create a website using ASP.NET Core, MVC, C#, JavaScript and of course HTML and CSS.
 
-## Why BootCamp? 
+## Why IBM BootCamp? 
 
-To improve my skills and collaborate with other developers 
+To refresh my knoweldge about HTML and CSS. 
+
