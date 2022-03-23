@@ -8,8 +8,8 @@ To refresh my knowledge about HTML, CSS, Git and GitHub.
 
 # Session 1 (Git and Github)
 
-! GIT: 
+! **GIT**: 
 A Version Control System 
 
-! GitHub: 
+! **GitHub**: 
 A website that allows us to store our git repositories (our projects with our code). 
