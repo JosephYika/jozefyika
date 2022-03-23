@@ -4,5 +4,6 @@ I mainly used this BootCamp to refresh my knowledge about HTML and CSS and compl
 
 ## Why IBM BootCamp? 
 
-To refresh my knoweldge about HTML and CSS. 
+To refresh my knowledge about HTML, CSS, Git and GitHub.
+
 
