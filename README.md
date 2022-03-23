@@ -5,3 +5,9 @@ I mainly used this BootCamp to refresh my knowledge about HTML and CSS and compl
 ## Why IBM BootCamp? 
 
 To refresh my knowledge about HTML, CSS, Git and GitHub.
+
+# Session 1 (Git and Github)
+
+GIT: A Version Control System 
+
+GitHub: A website that allows us to store our git repositories (our projects with our code)
