@@ -21,11 +21,11 @@ When we want to start using git commands in the terminal we firstly have to type
 
 An example of sequence of commands that we would use when creating our project locally on the computer (i.e. in the IDE such as VS code ):
 
-**init** - initializes a git repository (created by us)
-**add** - tracks files and changes to Git
-**commit** - save changes made to the code (or text if it is a README.mf file for example)
-**push** - upload Git files to a remote repository , like GitHub 
-**pull** - download changes made to the code on GitHub. "Pull" down the changes. 
+**init** - initializes a git repository (created by us)\
+**add** - tracks files and changes to Git\
+**commit** - save changes made to the code (or text if it is a README.mf file for example)\
+**push** - upload Git files to a remote repository , like GitHub\
+**pull** - download changes made to the code on GitHub. "Pull" down the changes.\
 
 Other usefull commands: 
 **clone** - clone the repository from GitHub. 
