@@ -27,8 +27,8 @@ An example of sequence of commands that we would use when creating our project l
 **push** - upload Git files to a remote repository , like GitHub\
 **pull** - download changes made to the code on GitHub. "Pull" down the changes.\
 
-Other usefull commands: \ 
-**clone** - clone the repository from GitHub.\
+Other usefull commands:\ 
+**clone** - clone the repository from GitHub\
 **status** - shows us the status of our files\
 **remote** - used when creating a connection between a new file that was created locally on the computer and GitHub. 
 **checkout** - lets us navigate between the branches 
