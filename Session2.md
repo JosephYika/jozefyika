@@ -11,4 +11,4 @@
 
 
 
-Previous Session: Week 1 (Git and Github)[this link](./README.md)
+[<-- Previous Session: Week 1 (Git and Github)](./README.md)
