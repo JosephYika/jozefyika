@@ -42,4 +42,8 @@ If we want to push our files to GitHub we need to prove to GitHub that we are ow
 
 
 
-<div style="text-align: right"> [Next Session: Week 2 (HTML & CSS) -->](./Session2.md) </div>
+<div align="right"> 
+
+[Next Session: Week 2 (HTML & CSS)-->](./Session2.md)
+
+</div>
