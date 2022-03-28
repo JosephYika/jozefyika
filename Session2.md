@@ -7,3 +7,8 @@
 **HTML** - 
 
 **CSS** - 
+
+
+
+
+Previous Session: Week 1 (Git and Github)[this link](./README.md)
