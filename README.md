@@ -6,7 +6,7 @@ I mainly used this BootCamp to refresh my knowledge about HTML and CSS and compl
 
 To refresh my knowledge about HTML, CSS, Git and GitHub.
 
-# Session 1 (Git and Github): What Have I learned so far? 
+# (Git and Github): What Have I learned so far? 
 
 **I will be adding more things as I continue learning.** 
 
@@ -42,8 +42,3 @@ If we want to push our files to GitHub we need to prove to GitHub that we are ow
 
 
 
-<div align="right"> 
-
-[Next Session: Week 2 (HTML & CSS)-->](./Session2.md)
-
-</div>
