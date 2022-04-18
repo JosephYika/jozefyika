@@ -1,8 +1,4 @@
-# IBM Code The Future
-A website created during the IBM Bootcamp. The Bootcamp focused on Web Development ( HTML and CSS). 
-I mainly used this BootCamp to refresh my knowledge about HTML and CSS and complement one of my modules at the university, where I had to create a website using ASP.NET Core, MVC, C#, JavaScript and of course HTML and CSS.
-
-## Why IBM BootCamp? 
+# Why IBM Code The Future programme?
 
 To refresh my knowledge about HTML, CSS, Git and GitHub.
 
@@ -44,7 +40,7 @@ If we want to push our files to GitHub we need to prove to GitHub that we are ow
 
 <div align="right"> 
 
-[Next Page -->](./page2.md)
+[Next Page -->](./page2.md) 
 
 </div>
 
