@@ -54,11 +54,97 @@ section
     background: #4CAF50;
     position: relative;
     box-shadow: inset 0 0 0 0 #68b071;
-    transition: ease-out 1s;
+    transition: all .5s linear;
 }
 .firstButton:hover
 {
     box-shadow: 10px 0 40px 10px #68b071;
     
 }
+header.sticky 
+ {
+     background:#fff;
+     padding: 20px 80px;
+     box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+ }
 
+ header
+ {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    z-index: 1000;
+    padding: 40px 100px;
+    width: 100%;      
+    position: fixed;
+    padding: 15px 0;
+    transition: 0.5s;
+ }
+ 
+ header ul
+ {
+     position: relative;
+     display: flex;
+     list-style-type: none;
+     
+ }
+
+
+ .width100
+ {
+     max-width: 1300px;
+     padding: 0 80px;
+     margin : auto;
+ }
+
+ header ul li a
+ {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 500;
+    margin-left: 45px;
+    text-decoration: none;
+    transition: all .5s linear;
+
+ }
+ header.sticky ul li a
+ {
+    color: rgb(8, 8, 8)
+ }
+ header ul li a:hover
+ {
+    color: rgb(58, 130, 148)
+ }
+
+ .aboutHead
+ {
+     width: 100%;
+     text-align: center;
+     margin-bottom: 40px;
+     color: #beca50
+ }
+ .content
+ {
+     display: flex;
+     justify-content: space-between;
+ }
+ .contentBox
+ {
+    text-align: justify;
+ }
+ .aboutHead h2
+ {
+    font-weight: 600;
+    font-size:30px;
+ }
+ .contentImage
+ {
+     min-width: 50%;
+ }
+
+ .img
+ {
+    max-width: 100%;
+ }
+
+ 
