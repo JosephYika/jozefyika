@@ -1,6 +1,10 @@
 # Why IBM Code The Future programme?
 
-To refresh my knowledge about HTML, CSS, Git and GitHub.
+To  my knowledge about HTML, CSS and learn Git and Github.
+
+# Why Have I built?
+I built a personal website using HTML, CSS and a little bit of JavaScript. It can be found under this link: https://josephyika.github.io/IBM-Code-The-Future-/
+It's not perfect, but it is a starting point! 
 
 # (Git and Github): What Have I learned so far? 
 
