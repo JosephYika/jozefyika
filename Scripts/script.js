@@ -1,7 +1,7 @@
 
 var TypedText = new Typed // assign new Object o a variable TypedText
 (".animatedText", {
-    strings: ["STUDENT - COMPUTING", "ASPIRING DEVELOPER AND ENGINEER", "BUT ALSO", "PIANO TEACHER AND PIANIST"],
+    strings: ["WEB DESIGNER", "DEVELOPER", "DIGITAL COMMUNICATIONS SPECIALIST", "BUT ALSO PIANO TEACHER AND PIANIST"],
     typeSpeed: 40,
     backSpeed: 40,
     loop: true
