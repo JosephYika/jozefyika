@@ -1,324 +1,36 @@
-* {
-    font-family: "Times New Roman", Times, serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+html {
     scroll-behavior: smooth;
 }
-.FrontText
-{
-    align-items: center;
-    justify-content:space-between;
-    display: flex;
-    background-position: right;
-    background-size: cover;
-    background: url(Images/mybg.jpg);
-    min-height: 100vh;
-    position: relative;
+/* Sticky header */
+header {
+    position: sticky;
+    top: 0; /* Stick to the top */
+    z-index: 10; /* Ensure it's above other content */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Apply styles when sticky */
+header.sticky {
+    background: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom hover effects */
+.btn-primary {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.btn-primary:hover {
+    transform: translateY(-2px);
+}
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
     
-}
-section
-{
-    padding: 130px;
-}
-.FrontText h2
-{
-    line-height: 1.5em;
-    font-weight: 500;
-    color: #fff;
-    font-size: 1cm;
-}
-.FrontText h3 span
-{
-    font-weight: 700;
-    font-size: 1.5cm;
-    color: #fff;
-}
-.FrontText h4
-{
-    color: rgb(214, 68, 68);
-    line-height: 200%;
-    font-size: 0.7cm;
-    font-weight: 900;
-}
-
-.firstButton
-{
-    font-weight: 500;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-size: 19px;
-    padding: 10px 40px;
-    margin-top: 20px;
-    color:#fff;
-    display: inline-block;
-    background: #4CAF50;
-    position: relative;
-    box-shadow: inset 0 0 0 0 #68b071;
-    transition: all .5s linear;
-}
-.firstButton:hover
-{
-    box-shadow: 10px 0 40px 10px #68b071;
-    
-}
-header.sticky 
- {
-     background:#fff;
-     padding: 20px 80px;
-     box-shadow: 0 4px 20px rgba(0,0,0,0.2);
- }
-
- header
- {
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
-    z-index: 1000;
-    padding: 40px 100px;
-    width: 100%;      
-    position: fixed;
-    padding: 15px 0;
-    transition: 0.5s;
- }
- 
- header ul
- {
-     position: relative;
-     display: flex;
-     list-style-type: none;
-     
- }
-
-
- .width100
- {
-     max-width: 1300px;
-     padding: 0 80px;
-     margin : auto;
- }
-
- header ul li a
- {
-    color: #fff;
-    font-size: 21px;
-    font-weight: 500;
-    margin-left: 45px;
-    text-decoration: none;
-    transition: all .5s linear;
-
- }
- header.sticky ul li a
- {
-    color: rgb(8, 8, 8)
- }
- header ul li a:hover
- {
-    color: rgb(58, 130, 148)
- }
-
- .aboutHead
- {
-     width: 100%;
-     text-align: center;
-     margin-bottom: 40px;
-     color: #beca50
- }
- .content
- {
-     display: flex;
-     justify-content: space-between;
- }
- .contentBox
- {
-    text-align: justify;
- }
- .aboutHead h2
- {
-    font-weight: 600;
-    font-size:30px;
- }
- .contentImage
- {
-     min-width: 50%;
- }
-
- .img
- {
-    max-width: 100%;
- }
-
- .myProjects
- {
-     background: #111;
- }
-
- .aboutHeadChangeColor
- {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 40px;
-    color: #beca50
- }
-
- .myProjects .content
- {
-     display: flex;
-     justify-content: center;
-     flex-wrap: wrap;
-     flex-direction: row;
- }
- .myProjects .content .projectBox img
- {
-     
-     filter: invert(5);
- }
-
- .myProjects .content .projectBox
- {
-     transition: 0.5s;
-     text-align: center;
-     margin: 20px;
-     max-width: 340px;
-     color:#fff;
-     background:rgb(59, 56, 65);
-     padding: 40px 20px;
-     text-align: center;
- }
-
- .myProjects .content .projectBox:hover
- {
-     background: #a9d478
- }
- 
- .myProjects .content .projectBox h2
- {
-     font-size: 40px;
-     font-weight: 500;
- }
-
-
- .myProjects .content .projectBox .icon i
- {
-    color: #111;
-    font-size: 50px;
-    margin-left: 250px;
-    transition: all 0.5s ease-in-out;
-    box-shadow: inset 0 0 0 0 #000000;
-    
- }
- .myProjects .content .projectBox .icon i:hover
- {
-    color: rgb(252, 252, 252)
- }
- 
- .Contact
- {
-     background: rgb(46, 45, 45);
- }
-.contactInformation
-{
-    min-width: 35%;
-}
-.contactBox .cBox
-{
-    position: relative;
-    display:flex;
-    padding: 20px 0;
-}
-.contactBox .cBox .icon
-{
-    font-size: 23px;
-    align-items: flex-start;
-    justify-content: center;
-    display: flex;
-    color: #fff;
-    padding-top: 4px;
-    min-width: 40px;
-
-    
-}
-.contactBox .cBox .text h3
-{
-    font-weight: 500;
-    color: rgb(243, 255, 77);
-    margin-bottom: 0;
-}
-
- .BOX 
- {
-     min-width: 60%;
-
- }
-
- .BOX form h3,
- .contactInformation h3
- {
-       margin-bottom: 10px;
-       font-weight: 500;
-       font-size: 20px;
-       color: #fff
- }
-.contactBox .cBox .text
-{
-    font-weight: 350;
-    flex-direction: column;
-    color: #fff;
-    font-size: 17px;
-    margin-left: 20px;
-    display: flex;
-}
- .contactInformation h3
- {
-    margin-bottom: 10px;
-    font-weight: 500;
-    font-size: 20px;
-    color: #fff
- }
- .BOX form
- {
-     display: flex;
-     flex-direction: column;
- }
- .BOX form textarea
- {
-     min-height: 150px;
- }
- .BOX form textarea,
- .BOX form input 
- {
-      resize: none;
-      color:#fff;
-      background: rgb(31, 27, 27);
-      outline: none;
-      border: none;
-      font-size: 16px;
-      padding: 15px;
-      margin-bottom: 15px;
- }
-
- .BOX form input::placeholder,
- .BOX form textarea::placeholder
- {
-    color: rgb(138, 130, 130)
- }
-
- .BOX form input[type="submit"]
- {
-     background: #48835c;
-     max-width: 200px;
-     letter-spacing: 2px;
-     text-transform: uppercase;
-     transition: all 0.5s ease-in-out;
-    box-shadow: inset 0 0 0 0 #000000;
-
- }
- .BOX form input[type="submit"]:hover
- {
-    box-shadow: inset 10px 30px 10px 20px #6ce706;
-    cursor: pointer;
- }
-
- video {
-     width: 100%;
- }

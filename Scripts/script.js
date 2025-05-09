@@ -1,16 +1,33 @@
 
-var TypedText = new Typed // assign new Object o a variable TypedText
-(".animatedText", {
-    strings: ["WEB DESIGNER", "DEVELOPER", "DIGITAL COMMUNICATIONS SPECIALIST", "BUT ALSO PIANO TEACHER AND PIANIST"],
+  
+// Typed.js Animation
+var TypedText = new Typed(".animatedText", {
+    strings: ["WEB DESIGNER", "DEVELOPER", "DIGITAL COMMUNICATIONS SPECIALIST", "BUT I ALSO ENJOY PLAYING THE PIANO"],
     typeSpeed: 40,
     backSpeed: 40,
     loop: true
-
 });
 
-window.addEventListener('scroll', function(){ // attach an event handler to the specified element - in this case scroll
-    var header = document.querySelector('header'); // return the first element
-    header.classList.toggle('sticky', window.scrollY > 0)
+// Sticky Header
+window.addEventListener('scroll', function() {
+    var header = document.querySelector('header');
+    console.log('scrollY:', window.scrollY); // Log scroll position
+    console.log('Header class list:', header.classList); // Log current class list
+    header.classList.toggle('sticky', window.scrollY > 0);
+});
 
-})
 
+// Mobile Menu Toggle
+const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+const mobileMenu = document.getElementById('mobile-menu');
+mobileMenuBtn.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+});
+
+// Basic Form Submission (Placeholder)
+document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert('Message sent! (This is a placeholder. Connect to a backend for real functionality.)');
+    this.reset();
+});
+    
