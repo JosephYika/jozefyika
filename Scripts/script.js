@@ -30,4 +30,6 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
     alert('Message sent! (This is a placeholder. Connect to a backend for real functionality.)');
     this.reset();
 });
+
+
     
