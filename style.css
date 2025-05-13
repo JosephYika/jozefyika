@@ -1,3 +1,4 @@
+/*Index*/
 body {
     font-family: 'Poppins', sans-serif;
     
@@ -34,6 +35,54 @@ header.sticky {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
+
+
+/*My Journey*/ 
+/* Import Alice font */
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+
+/* Subtle shadow for general white text */
+.my-journey .text-white {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+/* Softer hover glow */
+.my-journey .text-white:hover {
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5), 0 0 6px rgba(255, 255, 255, 0.3);
+}
+
+/* Slight enhancement for headings and paragraphs */
+.my-journey h2,
+.my-journey p {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+/* Subtle animated glow (reduced intensity) */
+@keyframes textGlow {
+    0% {
+        text-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
+    }
+    50% {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.4), 0 0 15px rgba(255, 255, 255, 0.2);
+    }
+    100% {
+        text-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
+    }
+}
+
+/* Apply subtle animation if needed */
+.my-journey .text-glow {
+    animation: textGlow 2s ease-in-out infinite;
+}
+
+
+
+
+
 
 
 
