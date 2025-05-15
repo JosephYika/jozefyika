@@ -17,6 +17,7 @@ window.addEventListener('scroll', function() {
 });
 
 
+
 // Mobile Menu Toggle
 const mobileMenuBtn = document.getElementById('mobile-menu-btn');
 const mobileMenu = document.getElementById('mobile-menu');
@@ -24,12 +25,19 @@ mobileMenuBtn.addEventListener('click', () => {
     mobileMenu.classList.toggle('hidden');
 });
 
+
 // Basic Form Submission (Placeholder)
 document.getElementById('contact-form').addEventListener('submit', function(e) {
     e.preventDefault();
     alert('Message sent! (This is a placeholder. Connect to a backend for real functionality.)');
     this.reset();
 });
+
+
+
+
+
+
 
 
 
