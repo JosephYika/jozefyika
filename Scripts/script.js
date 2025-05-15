@@ -33,6 +33,22 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
     this.reset();
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+        const resumeButton = document.getElementById('resume-button');
+        const resumeMenu = document.getElementById('resume-menu');
+
+        // Initially hide the resume menu
+        resumeMenu.style.display = 'none';
+
+        resumeButton.addEventListener('click', function () {
+            if (resumeMenu.style.display === 'none') {
+                resumeMenu.style.display = 'block';
+            } else {
+                resumeMenu.style.display = 'none';
+            }
+        });
+    });
+
 
 
 
