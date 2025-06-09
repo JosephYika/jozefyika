@@ -2,7 +2,7 @@
   
 // Typed.js Animation
 var TypedText = new Typed(".animatedText", {
-    strings: ["DIGITAL COMMUNICATIONS SPECIALIST", "WEB DESIGNER - DEVELOPER", "BUT ALSO A PiANO TEACHER", ":)"],
+    strings: ["DIGITAL COMMUNICATIONS SPECIALIST", "WEB DESIGNER - DEVELOPER", "BUT ALSO A PIANO TEACHER", ":)"],
     typeSpeed: 40,
     backSpeed: 40,
     loop: true
